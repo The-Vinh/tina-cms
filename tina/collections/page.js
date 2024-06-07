@@ -8,6 +8,11 @@ export default {
   format: "mdx",
   fields: [
     {
+      type: "string",
+      label: "Title",
+      name: "title",
+    },
+    {
       name: "body",
       label: "Main Content",
       type: "rich-text",

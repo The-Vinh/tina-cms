@@ -15,6 +15,7 @@ export default function Home(props) {
   return (
     <Layout>
       <div data-tina-field={tinaField(data.page, "body")}>
+        <h1>{data.page.title}</h1>
         <TinaMarkdown content={content} />
       </div>
     </Layout>
